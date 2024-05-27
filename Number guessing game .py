@@ -17,7 +17,7 @@ print("\n\tYou've only ",
 count = 0
  
 # for calculation of minimum number of
-# guesses depends upon range
+#guesses depends upon range
 while count < math.log(upper - lower + 1, 2):
     count += 1
  
@@ -41,4 +41,3 @@ if count >= math.log(upper - lower + 1, 2):
     print("\nThe number is %d" % x)
     print("\tBetter Luck Next time!")
  
-# Better to use This source Code on pycharm!
